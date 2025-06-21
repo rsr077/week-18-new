@@ -28,4 +28,4 @@ jobs:
         tags: rsr077/week-18-class:latest  # ✅ fixed line
 
     - name: Verify Pushed Image
-      run:  docker pull rsr077/week-18-class:latest"
+      run:  docker pull rsr077/week-18-class:latest
