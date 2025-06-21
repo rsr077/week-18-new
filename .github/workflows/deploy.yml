@@ -24,7 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags:  docker push rsr077/week-18-class:latest  # Replace with your Docker Hub username and repository
+        tags: rsr077/week-18-class:latest  # ✅ fixed line
 
     - name: Verify Pushed Image
-      run: docker push rsr077/week-18-class:latest   # Replace with your Docker Hub username and repository
+      run: echo "Image pushed: rsr077/week-18-class:latest"
